@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*.ts",
+    "lib/**/*.ts",
+    ".eslintrc.cjs",
+    "jest.config.cjs",
+    "vite.config.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "grammars"
+  ]
+}
